@@ -9,9 +9,20 @@ navigate to the project directory and do
 
 configure your database env since i'm using postgresql 
 got to `config/database.yml`
+and set
+ `host: localhost`
+  `username: postgres`
+  `password: Voda#0763`
 
 4. Step
+`rails db:create`
+
+5. Step
+
 `rails g scaffold Post caption:string`
 
 5. Step
-`rails db:create`
+`rails db:migrate`
+
+6. Step
+`bin/rails active_storage:install`
