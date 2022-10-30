@@ -26,3 +26,36 @@ and set
 
 6. Step
 `bin/rails active_storage:install`
+
+7. Step
+
+`rails db:migrate`
+
+8. Step
+
+define the imgUrl in the post model
+
+9. Step
+
+add image attribute to the post params in the post controller
+
+# Creating a react app
+
+1. Step
+
+`npx create-react-app takehomechallenge`
+
+2. Step
+
+`cd takehomechallenge`
+
+3. Step
+
+create .env file and set PORT=3006
+
+4. Step
+`npm install axios`
+
+5. Step
+
+install react-hook-form
