@@ -7,7 +7,7 @@ class PostRepresenter
       posts.map do |post|
         {
           id: post.id,
-          color: post.caption,
+          caption: post.caption,
           imageUrl: post.imageUrl
         }
       end
