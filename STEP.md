@@ -39,6 +39,15 @@ define the imgUrl in the post model
 
 add image attribute to the post params in the post controller
 
+10. Step
+
+ set default url in the config/env/development.rb
+
+11. Step
+
+allow cors in the config/initializers/cors.rb
+and set the allowed origin to `http://localhost:3000`
+
 # Creating a react app
 
 1. Step
