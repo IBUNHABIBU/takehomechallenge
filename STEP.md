@@ -44,7 +44,7 @@ add image attribute to the post params in the post controller
  set default url in the config/env/development.rb
 
 11. Step
-
+ got to the gem file and uncomment the gem 'rack-cors' then run bundle and 
 allow cors in the config/initializers/cors.rb
 and set the allowed origin to `http://localhost:3000`
 
