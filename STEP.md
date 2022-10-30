@@ -48,6 +48,10 @@ add image attribute to the post params in the post controller
 allow cors in the config/initializers/cors.rb
 and set the allowed origin to `http://localhost:3000`
 
+12. Step
+
+create the post serializer/representer is the way to control the data that our api returns to the client
+
 # Creating a react app
 
 1. Step
