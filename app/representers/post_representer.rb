@@ -1,17 +1,19 @@
-class postRepresenter
-    def initialize(post)
-      @post = post
+class PostRepresenter
+    def initialize(posts)
+      @posts = posts
     end
   
     def as_json
-      {
-        id: post.id,
-        color: post.caption,
-        imageUrl: post.imageUrl
-      }
+      posts.map do |post|
+        {
+          id: post.id,
+          color: post.color,
+          imageUrl: post.imageUrl
+        }
+      end
     end
   
     private
   
-    attr_reader :post
+    attr_reader :posts
   end

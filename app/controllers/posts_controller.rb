@@ -4,8 +4,7 @@ class PostsController < ApplicationController
   # GET /posts
   def index
     @posts = Post.all
-
-    render json: @posts
+    render json: PostRepresenter.new(@posts).as_json
   end
 
   # GET /posts/1
