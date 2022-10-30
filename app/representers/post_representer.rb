@@ -1,21 +1,17 @@
-class CarRepresenter
-    def initialize(car)
-      @car = car
+class postRepresenter
+    def initialize(post)
+      @post = post
     end
   
     def as_json
       {
-        id: car.id,
-        color: car.color,
-        engine: car.engine,
-        year: car.year,
-        title: car.title,
-        price: car.price,
-        imageUrl: car.imageUrl
+        id: post.id,
+        color: post.caption,
+        imageUrl: post.imageUrl
       }
     end
   
     private
   
-    attr_reader :car
+    attr_reader :post
   end
