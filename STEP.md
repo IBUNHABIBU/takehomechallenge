@@ -72,3 +72,12 @@ create .env file and set PORT=3006
 5. Step
 
 install react-hook-form
+
+
+Important
+
+Image the display imge will be the image of the article
+
+Title 
+
+Grammar check, quilbot, copy.ai
